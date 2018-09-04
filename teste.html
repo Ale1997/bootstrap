@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-table-master/dist/bootstrap-table.css">
+    <link rel="stylesheet" href="bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="bootstrap-editable.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="test2.css">
+
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="Bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap-table-master/dist/bootstrap-table.js"></script>
+    <script src="bootstrap-table-editable.js"></script>
+    <script src="bootstrap-editable.js"></script>
+    <script src="bootstrap-table-filter-control.js"></script>
+    <script src="teste.js"></script>
+  </head>
+
+<body>
+  
+                      <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button type="button" onclick="openNav()" class="btn btn-primary fas fa-bars"></button>
+            <div class="container-fluid ">
+              <div class="row">
+                <div class="d-flex flex-column ml-auto pr-5" id="social" style="text-align:center">
+                <i class="fas fa-user" id="social"></i>
+                    <p>Marcelo</p>
+                    <p>Oliveira</p>
+                    <a class="chevon"><i class="fas fa-sort-down"  ></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <div class="background"> 
+
+    <div class="sidenav" id="mySidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Clientes</a>
+      <a href="#">Contato</a>
+    </div>
+
+  <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+      <div class="col-sm">
+      <img alt="150x100" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/407px-Crystal_Clear_app_linneighborhood.svg.png" class="img-thumbnail float-left" alt="Responsive image">
+      </div>
+    <a class="navbar-brand" href="#">Test</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Test1</a>
+            <a class="dropdown-item" href="#">Test2 </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Outro test</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Desabilitado</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+
+  </nav>
+</div>
+ 
+
+  <!-- <div id="feedback">
+    <div id="feedback-header">
+        <span id="open-fb">Nos Avalie <i id="like" class="far fa-thumbs-up"></i> <i class="far fa-thumbs-down" id="deslike"></i></span>
+          <i id="close-fb" class="far fa-window-minimize"></i>
+    </div>
+    <div id="feedback-body">
+        <div class="avaliacao">
+            <p>Como podemos melhorar?</p>
+              <input type="checkbox"><span> Mais conteudos de programação front-end</span><br/>
+              <input type="checkbox"><span> Mais conteudos de programação back-end</span><br/>
+              <input type="checkbox"><span> Mais design?</span>
+            </div>  
+        </div>
+        <div class="sugestoes">
+            <p>Mais alguma sugestão?</p>
+          <textarea rows="2" placeholder="Escreva aqui sua observação ou comentários"></textarea>
+        </div>
+        <div class="enviar">
+          <button class="btn-enviar">Enviar</button>
+        </div>
+    </div> -->
+
+<footer class="footer bg-primary fixed-bottom">
+    <div class="container h-25">
+      <div class="row">
+      <div class="mx-auto col-auto">
+        <form class="form-inline my-2 my-lg-4">
+            <div class="text-center text-center">
+                    <p class="text-white" id="social2">Copyright 2016-2018<i class="far fa-copyright ml-2"></i></p>
+                <a href="https://www.facebook.com"  id="social"><i class="fab fa-facebook mr-2"></i></a>
+                <a href="https://www.twitter.com"   id="social"><i class="fab fa-twitter-square mr-2"></i></a>
+                <a href="https://www.instagram.com" id="social"><i class="fab fa-instagram mr-2"></i></a>
+                <a href="https://www.whatsapp.com"  id="social"><i class="fab fa-whatsapp mr-2"></i></a>
+                <a href="https://www.snapchat.com"  id="social"><i class="fab fa-snapchat-square mr-2"></i></a>
+                <a href="https://www.snapchat.com"  id="social"><i class="fab fa-google-plus-g"></i></a>
+                
+            </div>
+        </form>
+        </div>
+        </div>
+    </div>
+  </footer>
+
+  <footer class="footer bg-info fixed-bottom">
+      <div class="container h-25">
+          <form class="form-inline my-2 my-lg-2">
+            </form>
+        
+      </div>
+    </footer>
+
+  <script>
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+  
+  </script>
+
+</body>
+
+</html>

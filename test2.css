@@ -1,0 +1,126 @@
+.card-img{
+width: 80%;
+height: auto;
+   
+}
+
+.background{
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    /* width: 100%;
+    height: 100%; */
+    opacity: 0.5s;
+
+}
+
+.navbar{
+    background-color: #ffffff2a;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 999999;
+    top: 0; 
+    left: 0;
+    background-color:#0c2b6ead; 
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#social{
+    
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#social p{
+    margin-bottom: 0;
+    margin-top: -5px;
+    font-size: 10px;
+}
+
+#social2{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#social3{
+    color: #ffffff;   
+    font-size: 70%;
+    margin-left: 30px;
+    }
+
+.chevon {
+        position: absolute;
+        right: 39px;
+        bottom: 18px;
+    }
+
+ .chevon i{
+     color: white;
+ }   
+
+ /* #feedback{
+
+    width: 320px;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+ }
+
+ #feedback-body {
+    border: 1px solid #D4D4D4;
+    width: 100%;
+    padding: 15px;
+    display: none;
+}
+
+#feedback-header {
+    background-color: rgb(38, 130, 184);
+    color: white;
+    width: 100%;
+    height: 34px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: auto;
+} */
